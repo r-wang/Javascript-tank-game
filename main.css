@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#main {
+	background: black;
+	position: relative;
+}
+#info {
+	position: absolute;
+	left: 580px;
+	top: 430px;
+	padding:10px;
+}
+
+#divMap {
+	position: absolute;
+	background: #000;
+	border: 10px outset #C65D05;
+	width: 540px;
+	height: 540px;
+}
+.steel {
+	background: url(img/steel.gif);
+}
+.grass {
+	background: url(img/tod.gif);
+}
+.brick {
+	background: url(img/wall.gif);
+}
+.river {
+	background: url(img/sea.gif);
+}
+.eagle {
+	background: url(img/podium.gif);
+}
+.itank {
+	background: url(img/itank.gif) no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	z-index: 100;
+	left: 20px;
+	top: 240px;
+}
+.etank {
+	background: url(img/etank.gif) no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	z-index: 100;
+}
+.bomb {
+	background: url(img/ball.gif) no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
