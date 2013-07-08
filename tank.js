@@ -443,6 +443,7 @@ function shootBullets() {
 		bullets[k].move();
 		if (enemyTanks.length == 0) {
 			win();
+			break;
 		}
 	}
 }
